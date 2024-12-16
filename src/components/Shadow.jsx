@@ -17,7 +17,7 @@ const Shadow = () => {
 
   return (
     <div className="sm:ml-20 mt-2 w-full sm:max-w-[569.04px] h-auto shadow-lg bg-white rounded-lg p-4">
-      <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-0">
+      <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-0">
         <div className="w-[248.25px] h-[83.88px] bg-[#f4f4f5] rounded-[14px] shadow-md flex items-center">
           <div className="bg-gray-200 ml-3 shadow-md w-[40px] h-[40px]"></div>
           <div className="flex flex-col ml-3 items-center">
@@ -26,7 +26,7 @@ const Shadow = () => {
           </div>
         </div>
 
-        <p className="bg-gray-200 z-50 flex mt-5 sm:mt-0 items-center justify-center w-[40px] h-[40px]">
+        <p className="bg-gray-200 z-50 flex  sm:mt-0 items-center justify-center w-[40px] h-[40px]">
           <FaGreaterThan />
         </p>
 
