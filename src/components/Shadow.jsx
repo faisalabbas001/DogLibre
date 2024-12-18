@@ -25,7 +25,7 @@ const Shadow = () => {
   const handleChainToChange = (chain) => setSelectedChainTo(chain);
 
   return (
-    <div className="sm:ml-20 mt-2 w-full sm:max-w-[539.04px] h-auto shadow-[-4px_0px_10px_-4px_rgba(0,0,0,0.8)] bg-white rounded-[36px] p-4">
+    <div className="sm:ml-20 mt-2 ml-2    w-[300px] sm:w-[539.04px] h-auto shadow-[-4px_0px_10px_-4px_rgba(0,0,0,0.8)] bg-white rounded-[36px] p-4">
       <div className="flex flex-col sm:flex-row justify-center items-center sm:gap-0">
         <ChainSelectorFrom selectedChain={selectedChainFrom} onChainSelect={handleChainFromChange} excludeChain={selectedChainTo} />
         <p className="bg-gray-200 flex items-center justify-center sm:w-[40px] sm:h-[40px] w-[30px] h-[30px] rounded-full shadow-md">
